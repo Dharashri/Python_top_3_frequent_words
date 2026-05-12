@@ -28,5 +28,5 @@ def top3(text):
         output.append(word_list[i])
     return output
 
-text = input("Enter a sentence:")
+text = input("Enter a sentence: ")
 print (top3(text))
